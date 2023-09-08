@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icons/zentai-blanco.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/icons/logo-zentai.JPG" alt="logo negocio">
+        </div>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="./menu.html">Menú</a>
+            <a href="./galeria.html">Galería</a>
+            <a href="./sucursal.html">Sucursal</a>
+            <a href="#" >Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <div class="contact-cabecera">
+                <h1>CONTACTO</h1>
+            </div>
+            <div class="contact-form">
+                <form action="procesar.php" method="post">
+                    <div class="contact-input">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" placeholder="Juan">
+                    </div>
+                    <div class="contact-input">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="apellido" placeholder="Perez">
+                    </div>
+                    <div class="contact-input">
+                        <label for="celular">Celular:</label>
+                        <input type="number" name="celular">
+                    </div>
+                    <div class="contact-input">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="ejemplo@gmail.com">
+                    </div>
+                    <div class="contact-input text-area">
+                        <label for="mensaje">Dejanos tu mensaje:</label>
+                        <textarea name="mensaje" cols="50" rows="15"></textarea>
+                    </div>
+                    <div class="contact-button">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            2023. Copyright ©. Desarrollado por Ignacio Quevedo.
+        </div>
+    </footer>
+</body>
+</html>
